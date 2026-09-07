@@ -1,5 +1,9 @@
-
+import { Experience } from "./components/experience/Experience";
 
 export const App = () => {
-  return <h1>App</h1>
-}
+  return (
+    <div>
+      <Experience />
+    </div>
+  );
+};
